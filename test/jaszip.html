@@ -1,0 +1,65 @@
+<!-- komentarz w html -->
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nagłówki</title>
+  <style>
+	body {
+		background-color: #19ff57;
+		<!color: white;>
+		}
+	.center {
+		text-align: center;
+		}
+	.transparent {
+		background: transparent;
+		border: 0px;
+		}
+	.pilot {
+		background-color: yellow;
+		display: grid;
+		grid-template-columns: 100px 100px 100px;
+		grid-template-rows: 100px 100px 100px;
+			}
+	.okragly{
+		border: 0px;
+		outline: #4CAF50 solid 0px;
+		border-radius: 30px;
+		}
+	.przod {
+		grid-column: 2;
+		grid-row: 1;
+		}
+	.lewo {
+		grid-column: 1;
+		grid-row: 2;
+		}
+	.prawo {
+		grid-column: 3;
+		grid-row: 2;
+		}
+	.dol {
+		grid-column: 2;
+		grid-row: 2;
+		}
+  </style>
+</head>
+<body>
+  <h1 class="center">Nauka o nagłówkach☢™:</h1>
+  <h1>To jest nagłówek numer 1</h1>
+  <h2>To jest nagłówek numer 2</h2>
+  <h3>To jest nagłówek numer 3</h3>
+  <h4>To jest nagłówek numer 4, działa też jak "p", ale ma wgrane bold</h4>
+  <p>To jest "p" <b>A to "p" bold</b></p>
+  <h1 class="center">Głupotki</h1>
+  <a href="/dwa"><h2>Link do strony "dwa"</h2></a>
+  <button class="transparent" onclick="document.location='https://skj-tech.online'"><h4>Kliknij Mnie!</h4></button>
+  <div class="pilot">
+    <button class="przod"><h1>↑</h1></button>
+	<button class="lewo"><h1>←</h1></button>
+    <button class="prawo"><h1>→</h1></button>
+	<button class="dol"><h1>↓</h1></button></div>
+</body>
+</html>
