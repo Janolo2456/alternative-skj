@@ -3,14 +3,15 @@
   
   <!-- Strona główna -->
   <url>
-    <loc>https://skj-tech.online</loc>
+    <loc>https://skj-tech.online/</loc>
     <lastmod>2026-09-09</lastmod>
   </url>
 
   <!-- Projekty i podstrony systemów -->
+  <!-- UWAGA: Linki do innych domen mogą być ignorowane w sitemapie głównej domeny -->
   <url>
     <loc>https://skjos26.pages.dev/</loc>
-    <lastmod>2026-09.09</lastmod>
+    <lastmod>2026-09-09</lastmod>
   </url>
 
   <url>
@@ -22,7 +23,6 @@
   <url>
     <loc>https://skj-tech.online/apps/</loc>
     <lastmod>2026-07-07</lastmod>
-    
   </url>
 
   <!-- Wyszukiwarka -->
@@ -39,10 +39,9 @@
   <url>
     <loc>https://skj-tech.online/SKJos26/</loc>
     <lastmod>2026-07-19</lastmod>
-
   </url>
   <url>
-    <loc>https://skj-tech.online/SKJos26/download</loc>
+    <loc>https://skj-tech.online/SKJos26/download/</loc>
     <lastmod>2026-07-19</lastmod>
   </url>
   <url>
@@ -62,7 +61,7 @@
     <lastmod>2026-07-19</lastmod>
   </url>
   <url>
-    <loc>https://skj-tech.online/whisper</loc>
+    <loc>https://skj-tech.online/whisper/</loc>
     <lastmod>2026-07-19</lastmod>
   </url>
 
