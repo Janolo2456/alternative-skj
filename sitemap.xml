@@ -8,11 +8,7 @@
   </url>
 
   <!-- Projekty i podstrony systemów -->
-  <!-- UWAGA: Linki do innych domen mogą być ignorowane w sitemapie głównej domeny -->
-  <url>
-    <loc>https://skjos26.pages.dev/</loc>
-    <lastmod>2026-09-09</lastmod>
-  </url>
+  <!-- UWAGA: Linki do innych domen mogą być ignorowane w sitemapie głównej -->
 
   <url>
     <loc>https://skj-tech.online/bruh/</loc>
